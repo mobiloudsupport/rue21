@@ -1,1 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="hamburger-menu" class="menu-wrapper">
+        <ul class="menu-items-list" role='list'>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" class="item-link submenu-trigger">New</a>
+                    <span class="item-icon submenu-trigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg>
+                    </span>
+                </div>
+
+                <ul class="sub-items-list">
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/new-arrivals/girls/_/N-1z140vz" target="_self"
+                                class="item-link">Girls New Arrivals</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/new-arrivals/plus/_/N-1z140vz" target="_self"
+                                class="item-link">Rue+ new arrivals</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/new-arrivals/guys/_/N-1z140vz" target="_self"
+                                class="item-link">Guys new arrivals</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" class="item-link submenu-trigger">Girls</a>
+                    <span class="item-icon submenu-trigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg> </span>
+                </div>
+
+                <ul class="sub-items-list">
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/girls-clothing/girls/_/N-bpoZ952" target="_self"
+                                class="item-link">Shop all girls</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/plus-clothing/plus/_/N-bpqZ99f" target="_self"
+                                class="item-link">Shop all rue+</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/trends/bottomshop/_/N-sps" target="_self"
+                                class="item-link">$5 Sleep pants</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/trends/hoodies/girls/_/N-rhs" target="_self"
+                                class="item-link">$15 Sweatshirts</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/trends/gpsweaters/_/N-tst" target="_self"
+                                class="item-link">$15 sweaters</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/new-arrivals/girls/_/N-1z140vz" target="_self"
+                                class="item-link">New</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/girls/tops/graphic-tees/graphic-tees/_/N-a3g"
+                                target="_self" class="item-link">Graphic tees</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a href="https://rue21.com/store/girls/bottoms/girls-jeans/_/N-a47" target="_self"
+                                class="item-link">Jean shop</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/girls/tops/_/N-9qb">Tops</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/girls/tops/sweatshirts-&amp;-hoodies/_/N-afi">Hoodies</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/girls/bottoms/_/N-9qa">Bottoms</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link"
+                                href="https://rue21.com/store/girls/lingerie-&amp;-sleepwear/sleepwear/_/N-a8c">Sleepwear</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/girls/jackets-&amp;-coats/_/N-96p">Jackets</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/girls/dresses-&amp;-rompers/_/N-96t">Dresses</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/accessories/accessories/_/N-a0b">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link"
+                                href="https://rue21.com/store/accessories/beauty-&amp;-perfume/perfume/_/N-aso">Perfume</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/shoes/girls-shoes/_/N-9b6">Shoes</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a target="_self" class="item-link submenu-trigger">Explore Rue+</a>
+                            <span class="item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                </svg> </span>
+                        </div>
+                        <ul class="sub-items-list">
+                            <li class="menu-item">
+                                <div data-testid="itemWrapper" class="item-wrapper">
+                                    <a href="https://rue21.com/store/plus-clothing/plus/_/N-bpqZ99f" target="_self"
+                                        class="item-link">View all</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/plus/plus-tops/_/N-9qd">Rue+
+                                        tops</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/plus/plus-bottoms/_/N-9qe">Rue+
+                                        bottoms</a>
+
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/plus/plus-bottoms/plus-jeans/_/N-ac3">Rue+
+                                        jeans</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/plus/plus-tops/plus-graphic-tees/plus-graphic-tees/_/N-abl">Rue+
+                                        graphic tees</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/plus/plus-dresses-&amp;-rompers/_/N-9ag">Rue+
+                                        dresses</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/plus/plus-lingerie-&amp;-sleepwear/plus-sleepwear/_/N-afn">Sleepwear</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a  target="_self" class="item-link submenu-trigger">Gift Ideas</a>
+                            <span class="item-icon submenu-trigger">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                </svg> </span>
+                        </div>
+                        <ul class="sub-items-list">
+                            <li class="menu-item">
+                                <div data-testid="itemWrapper" class="item-wrapper">
+                                    <a href="https://rue21.com/store/trends/holiday-collection/girls/_/N-rhc"
+                                        target="_self" class="item-link">View all</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/holiday-collection/girls/_/N-rhc">Gifts
+                                        for her</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/truemusthave/_/N-bra">The
+                                        grinch
+                                        collection</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/christmas/_N-xms">Stocking
+                                        stuffers</a>
+
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/new-generation/_/N-brg">Gameday</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/girls/lingerie-&amp;-sleepwear/sleepwear/_/N-a8c">Sleepwear</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/accessories/beauty-&amp;-perfume/perfume/_/N-aso">Perfume</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/going-out/_/N-gno">The
+                                        party shop</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a target="_self" class="item-link submenu-trigger">Trending Now</a>
+                            <span class="item-icon submenu-trigger">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                </svg> </span>
+                        </div>
+                        <ul class="sub-items-list">
+                            <li class="menu-item">
+                                <div data-testid="itemWrapper" class="item-wrapper">
+                                    <a href="https://rue21.com/store/girls-clothing/girls/_/N-bpoZ952" target="_self"
+                                        class="item-link">View all</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/clothing/_/N-bar">Pretty
+                                        in pink</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/active-shop/girls/_/N-bo4">Active +
+                                        lounge</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/sleep/_/N-ggp">Cozy
+                                        shop</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/destination/_/N-gra">Destination shop</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/new-generation/_/N-brg">Gameday</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" class="item-link submenu-trigger">Guys</a>
+                    <span class="item-icon submenu-trigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg> </span>
+                </div>
+
+                <ul class="sub-items-list">
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys-clothing/guys/_/N-bppZ97i">Shop all guys </a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/trends/bottomshop/_/N-sps">$5 Sleep pants</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/trends/hoodies/guys/_/N-rhs">$20 Hoodies</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/new-arrivals/guys/_/N-1z140vz">New</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/tops/graphic-tees/graphic-tees/_/N-acu">Graphic
+                                tees</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/bottoms/guys-jeans/_/N-adc">Jean shop</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/tops/_/N-9qf">Tops</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/tops/sweatshirts-&amp;-hoodies/_/N-ad1">Hoodies</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/bottoms/_/N-9qg">bottoms</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/jackets-&amp;-coats/_/N-98n">Jackets</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/guys-accessories/_/N-98w">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/guys-accessories/sleepwear/_/N-bra">Sleepwear</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/guys-accessories/underwear/_/N-bbx">Underwear</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a class="item-link" href="https://rue21.com/store/guys/guys-accessories/cologne/_/N-adx">Cologne</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a target="_self" class="item-link submenu-trigger">Gift Ideas</a>
+                            <span class="item-icon submenu-trigger">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                </svg> </span>
+                        </div>
+                        <ul class="sub-items-list">
+                            <li class="menu-item">
+                                <div data-testid="itemWrapper" class="item-wrapper">
+
+                                    <a href="https://rue21.com/store/trends/holiday-collection/guys/_/N-rhc"
+                                        target="_self" class="item-link">View all</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/holiday-collection/guys/_/N-rhc">Gifts
+                                        for him</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/truemusthave/_/N-bra">The
+                                        grinch
+                                        collection</a>
+                                </div>
+                            </li>
+                            <div class="item-wrapper">
+                                <a class="item-link" href="https://rue21.com/store/trends/christmas/_N-xms">Stocking
+                                    stuffers</a>
+                            </div>
+                            <div class="item-wrapper">
+                                <a class="item-link"
+                                    href="https://rue21.com/store/trends/new-generation/_/N-brg">Gameday</a>
+                            </div>
+                            <div class="item-wrapper">
+                                <a class="item-link"
+                                    href="https://rue21.com/store/guys/guys-accessories/sleepwear/_/N-bra">Sleepwear</a>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <div data-testid="itemWrapper" class="item-wrapper">
+                            <a target="_self" class="item-link submenu-trigger">Trending now</a>
+                            <span class="item-icon submenu-trigger">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                </svg> </span>
+                        </div>
+                        <ul class="sub-items-list">
+                            <li class="menu-item">
+                                <div class="item-wrapper" data-test>
+
+                                    <a href="https://rue21.com/store/guys-clothing/guys/_/N-bppZ97i" target="_self"
+                                        class="item-link">View all</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/active-shop/guys/_/N-bo4">Active +
+                                        lounge</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link" href="https://rue21.com/store/trends/cozy/guys/_/N-rcs">Cozy</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/destination/_/N-gra">Destination shop</a>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="item-wrapper">
+                                    <a class="item-link"
+                                        href="https://rue21.com/store/trends/new-generation/_/N-brg">Gameday</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" class="item-link submenu-trigger">Graphic Shop</a>
+                    <span class="item-icon submenu-trigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg> </span>
+                </div>
+                <ul class="sub-items-list">
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a 
+                                class="item-link" href="https://rue21.com/store/trends/graphic-shop/_/N-bbu">Shop all graphics</a>
+                            </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a 
+                                class="item-link" href="https://rue21.com/store/trends/online-exclusives/_/N-roe">Online exclusive
+                                graphics</a>
+                            </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="item-wrapper">
+                            <a  class="item-link"
+                                href="https://rue21.com/store/trends/new-generation/_/N-brg">Gameday</a>
+                            </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" href="https://rue21.com/store/jeans/_/N-b13"
+                        class="item-link">Jean Shop</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" href="https://rue21.com/store/trends/cargo/_/N-car" class="item-link">Cargo Shop</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    <a target="_self" href="https://rue21.com/store/trends/sale/_/N_dfg" class="item-link">Clearance Shop</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    
+                    <a target="_self" href="https://www.rue21.com/orderlookup" class="item-link"><span style="margin-right: 10px;"><img width="20" src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt114bc851ad3ed19e/6356893192026b7701872984/box_2@3x.png?disposition=inline"></span>Track order</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    
+                    <a target="_self" href="https://stores.rue21.com/search.html" class="item-link"><span style="margin-right: 10px;"><img width="20" src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt5c3af83be2104c0f/635689310f8594109805260b/location_2@3x.png?disposition=inline"></span>Find a store</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    
+                    <a target="_self" href="https://www.rue21.com/store/gift-cards?ici=footer_global&icn=GiftCardsEGiftCards" class="item-link"><span style="margin-right: 10px;"><img width="20" src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt7ca1a322fea02a96/63568931330ba0566cd66200/credit-card_2@3x.png?disposition=inline"></span>GIFT CARDS</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div data-testid="itemWrapper" class="item-wrapper">
+                    
+                    <a target="_self" href="https://www.rue21.com/store/gift-cards?ici=footer_global&icn=GiftCardsEGiftCards" class="item-link"><span style="margin-right: 10px;"><img width="20" src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/bltd6ce9229a82cd8e7/63568931e079731084bee2e3/portfolio_2@3x.png?disposition=inline"></span>Now Hiring</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
